@@ -35,7 +35,7 @@
 - name: disable_branding
   display_name: Disable Branding
   enabled: false
-  premium: true
+  premium: false
 - name: email_continuity_on_api_channel
   display_name: Email Continuity on API Channel
   enabled: false
@@ -122,7 +122,7 @@
   deprecated: true
 - name: branded_email_templates
   display_name: Branded Email Templates
-  enabled: false
+  enabled: true
 - name: inbox_view
   display_name: Inbox View
   enabled: false
@@ -159,7 +159,7 @@
   deprecated: true
 - name: contact_chatwoot_support_team
   display_name: Contact Chatwoot Support Team
-  enabled: true
+  enabled: false
   chatwoot_internal: true
 - name: shopify_integration
   display_name: Shopify Integration
@@ -177,8 +177,8 @@
   enabled: false
 - name: channel_voice
   display_name: Voice Channel
-  enabled: false
-  premium: true
+  enabled: true
+  premium: false
 - name: notion_integration
   display_name: Notion Integration
   enabled: false
